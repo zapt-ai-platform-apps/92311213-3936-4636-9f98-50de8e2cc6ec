@@ -1,13 +1,15 @@
-# AI Money Mentor
+# $10K/Month AI Money Mentor
 
-AI Money Mentor is a chatbot application that provides guidance on how to generate money through online methods. The application uses OpenAI's GPT models to provide personalized advice on various online income opportunities including freelancing, e-commerce, digital marketing, investments, and passive income streams.
+$10K/Month AI Money Mentor is a specialized chatbot application designed to guide users toward generating $10,000+ monthly income through online methods. The application uses OpenAI's GPT models to provide personalized, actionable advice on high-income online opportunities including advanced freelancing, e-commerce, digital products, and scalable online business models.
 
 ## Features
 
-- Interactive chat interface with AI assistant
-- Specialized in online money-making advice
+- Interactive chat interface with AI advisor specialized in high-income strategies
+- Income pathway visualization (Starting: $0-1K, Building: $1K-5K, Scaling: $5K-10K+)
+- Personalized advice based on user's current income level and experience
+- Step-by-step guidance for reaching $10,000+ monthly income
 - Markdown-formatted responses for better readability
-- Suggested follow-up questions based on conversation context
+- Contextual follow-up suggestions based on conversation
 - Responsive design for all devices
 - Chat history persistence
 
@@ -31,15 +33,16 @@ To run this application locally:
 
 ## About the AI Assistant
 
-The AI Money Mentor is programmed to provide:
+The $10K/Month AI Money Mentor is programmed to provide:
 
-- Informative, practical, and encouraging advice
-- Specific, actionable recommendations
-- Realistic income opportunities based on individual situations
-- Honest assessments of effort and time required
+- Strategic guidance for reaching high-income goals
+- Income-stage appropriate recommendations (Starting, Building, Scaling)
+- Realistic timeframes and effort requirements
+- Scalable business models and high-value skill development
+- Advanced monetization strategies for existing skills/businesses
 - Well-formatted responses with relevant resources
 
-The assistant never suggests illegal, unethical, or get-rich-quick schemes, focusing instead on legitimate online income opportunities.
+The assistant focuses on legitimate, sustainable income strategies rather than get-rich-quick schemes, providing honest assessments of the work required to reach $10,000+ monthly income.
 
 ## Made on ZAPT
 

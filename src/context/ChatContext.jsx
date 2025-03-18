@@ -3,13 +3,13 @@ import * as Sentry from '@sentry/browser';
 
 export const ChatContext = createContext();
 
-// Initial suggestions for users
+// Income-focused initial suggestions
 const initialSuggestions = [
-  "How can I start freelancing?",
-  "What are the best e-commerce platforms?",
-  "How to make money with social media?",
-  "What are passive income opportunities?",
-  "How to start investing with little money?"
+  "How do I start my $10K/month journey?",
+  "What are the fastest paths to $10K?",
+  "Best high-income online business models?",
+  "How to scale freelancing to $10K/month?",
+  "Passive income strategies for $10K+"
 ];
 
 export const ChatProvider = ({ children }) => {
@@ -31,7 +31,7 @@ export const ChatProvider = ({ children }) => {
           {
             id: '0',
             role: 'assistant',
-            content: `# Welcome to AI Money Mentor! 👋\n\nI'm here to help you explore ways to generate income online. What would you like to learn about today?`,
+            content: `# Welcome to Your $10K/Month Journey! 🚀\n\nI'm your AI Money Mentor, dedicated to guiding you to $10,000+ monthly income through legitimate online strategies.\n\n## How I Can Help You:\n\n- Map your personalized path to $10K/month\n- Provide step-by-step strategies based on your current situation\n- Suggest high-value skills and business models to pursue\n- Help you overcome income plateaus and scale effectively\n\nWhat's your current income level, and what online money-making experience do you have so far?`,
             timestamp: new Date().toISOString()
           }
         ]);
@@ -123,7 +123,7 @@ export const ChatProvider = ({ children }) => {
           {
             id: '0',
             role: 'assistant',
-            content: `# Welcome to AI Money Mentor! 👋\n\nI'm here to help you explore ways to generate income online. What would you like to learn about today?`,
+            content: `# Welcome to Your $10K/Month Journey! 🚀\n\nI'm your AI Money Mentor, dedicated to guiding you to $10,000+ monthly income through legitimate online strategies.\n\n## How I Can Help You:\n\n- Map your personalized path to $10K/month\n- Provide step-by-step strategies based on your current situation\n- Suggest high-value skills and business models to pursue\n- Help you overcome income plateaus and scale effectively\n\nWhat's your current income level, and what online money-making experience do you have so far?`,
             timestamp: new Date().toISOString()
           }
         ]);

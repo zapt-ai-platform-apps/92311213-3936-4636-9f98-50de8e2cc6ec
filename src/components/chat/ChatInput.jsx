@@ -25,7 +25,7 @@ const ChatInput = () => {
           value={inputMessage}
           onChange={handleChange}
           disabled={isLoading}
-          placeholder={isLoading ? "AI is thinking..." : "Ask about making money online..."}
+          placeholder={isLoading ? "AI is thinking..." : "Ask about reaching $10K/month..."}
           className="flex-1 px-4 py-2 border border-gray-300 rounded-l-lg box-border focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800 bg-white"
         />
         <button

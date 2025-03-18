@@ -3,6 +3,7 @@ import { ChatContext } from '../../context/ChatContext';
 import MessageList from './MessageList';
 import ChatInput from './ChatInput';
 import TopicSuggestions from './TopicSuggestions';
+import IncomePathway from './IncomePathway';
 import { FaTrash } from 'react-icons/fa';
 
 const ChatContainer = () => {
@@ -17,7 +18,7 @@ const ChatContainer = () => {
   return (
     <div className="flex-1 flex flex-col bg-white rounded-lg shadow-md overflow-hidden">
       <div className="p-4 border-b border-gray-200 flex justify-between items-center bg-blue-50">
-        <h2 className="text-lg font-medium text-blue-900">AI Money Mentor Chat</h2>
+        <h2 className="text-lg font-medium text-blue-900">$10K/Month Strategy Guide</h2>
         <button 
           onClick={clearChat}
           className="text-red-500 hover:text-red-700 transition-colors p-2 rounded-full hover:bg-gray-100 cursor-pointer"
@@ -27,6 +28,8 @@ const ChatContainer = () => {
           <FaTrash />
         </button>
       </div>
+      
+      <IncomePathway />
       
       <div className="flex-1 overflow-y-auto p-4 bg-gray-50">
         <MessageList messages={messages} isLoading={isLoading} />
